@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site de Publicidade</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #f8f8f8;
+      padding: 10px;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+    .main-content {
+      flex: 1 1 70%;
+      padding: 10px;
+    }
+    .sidebar {
+      flex: 1 1 30%;
+      padding: 10px;
+    }
+    .ad-slot {
+      border: 2px dashed #ccc;
+      margin: 10px 0;
+      padding: 20px;
+      text-align: center;
+      background-color: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Meu Site de Publicidade</h1>
+    <div class="ad-slot">Anúncio Cabeçalho</div>
+  </header>
+  <div class="container">
+    <div class="main-content">
+      <h2>Conteúdo Principal</h2>
+      <div class="ad-slot">Anúncio Content 1</div>
+      <p>Seu conteúdo aqui...</p>
+      <div class="ad-slot">Anúncio Content 2</div>
+      <p>Mais texto...</p>
+    </div>
+    <aside class="sidebar">
+      <h3>Sidebar</h3>
+      <div class="ad-slot">Anúncio Lateral 1</div>
+      <div class="ad-slot">Anúncio Lateral 2</div>
+    </aside>
+  </div>
+  <footer>
+    <div class="ad-slot">Anúncio Rodapé</div>
+    <p>&copy; 2025 Meu Site</p>
+  </footer>
+</body>
+</html>
